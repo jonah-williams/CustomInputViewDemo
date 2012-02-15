@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CustomKeyboardController.h"
 
 @implementation AppDelegate
 
@@ -21,7 +22,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
+
+    CustomKeyboardController *customKeyboardController = [[CustomKeyboardController alloc] initWithNibName:nil bundle:nil];
+    NSArray *tabControllers = [NSArray arrayWithObjects:customKeyboardController, nil];
+    [customKeyboardController release], customKeyboardController = nil;
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    [tabBarController setViewControllers:tabControllers];
+    [self.window setRootViewController:tabBarController];
+    [tabBarController release], tabBarController = nil;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
