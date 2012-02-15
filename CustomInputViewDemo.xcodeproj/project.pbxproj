@@ -20,6 +20,9 @@
 		8CB9A72214EB0CA000F1E29C /* CustomInputViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9A72114EB0CA000F1E29C /* CustomInputViewDemoTests.m */; };
 		8CB9A73014EB15C800F1E29C /* CustomKeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9A72E14EB15C800F1E29C /* CustomKeyboardController.m */; };
 		8CB9A73114EB15C800F1E29C /* CustomKeyboardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9A72F14EB15C800F1E29C /* CustomKeyboardController.xib */; };
+		8CB9A75514EB7D4F00F1E29C /* BlackKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9A75214EB7D4F00F1E29C /* BlackKey.png */; };
+		8CB9A75614EB7D4F00F1E29C /* TopRunner.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9A75314EB7D4F00F1E29C /* TopRunner.png */; };
+		8CB9A75714EB7D4F00F1E29C /* WhiteKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9A75414EB7D4F00F1E29C /* WhiteKey.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		8CB9A72D14EB15C800F1E29C /* CustomKeyboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomKeyboardController.h; sourceTree = "<group>"; };
 		8CB9A72E14EB15C800F1E29C /* CustomKeyboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomKeyboardController.m; sourceTree = "<group>"; };
 		8CB9A72F14EB15C800F1E29C /* CustomKeyboardController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomKeyboardController.xib; sourceTree = "<group>"; };
+		8CB9A75214EB7D4F00F1E29C /* BlackKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackKey.png; sourceTree = "<group>"; };
+		8CB9A75314EB7D4F00F1E29C /* TopRunner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopRunner.png; sourceTree = "<group>"; };
+		8CB9A75414EB7D4F00F1E29C /* WhiteKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteKey.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		8CB9A6ED14EB0CA000F1E29C = {
 			isa = PBXGroup;
 			children = (
+				8CB9A75114EB7D4E00F1E29C /* Resources */,
 				8CB9A70214EB0CA000F1E29C /* CustomInputViewDemo */,
 				8CB9A71A14EB0CA000F1E29C /* CustomInputViewDemoTests */,
 				8CB9A6FB14EB0CA000F1E29C /* Frameworks */,
@@ -149,6 +156,16 @@
 				8CB9A71D14EB0CA000F1E29C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CB9A75114EB7D4E00F1E29C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9A75214EB7D4F00F1E29C /* BlackKey.png */,
+				8CB9A75314EB7D4F00F1E29C /* TopRunner.png */,
+				8CB9A75414EB7D4F00F1E29C /* WhiteKey.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +241,9 @@
 			files = (
 				8CB9A70714EB0CA000F1E29C /* InfoPlist.strings in Resources */,
 				8CB9A73114EB15C800F1E29C /* CustomKeyboardController.xib in Resources */,
+				8CB9A75514EB7D4F00F1E29C /* BlackKey.png in Resources */,
+				8CB9A75614EB7D4F00F1E29C /* TopRunner.png in Resources */,
+				8CB9A75714EB7D4F00F1E29C /* WhiteKey.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +442,7 @@
 				8CB9A72714EB0CA000F1E29C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CB9A72814EB0CA000F1E29C /* Build configuration list for PBXNativeTarget "CustomInputViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +451,7 @@
 				8CB9A72A14EB0CA000F1E29C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
