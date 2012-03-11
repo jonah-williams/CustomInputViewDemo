@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C53E713150BE3A80021C8BE /* MarkdownInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C53E712150BE3A80021C8BE /* MarkdownInputAccessoryView.m */; };
+		8C53E717150C924B0021C8BE /* MusicScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C53E716150C924B0021C8BE /* MusicScoreView.m */; };
+		8C53E71A150C94130021C8BE /* MusicScoreInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C53E719150C94130021C8BE /* MusicScoreInputView.m */; };
+		8C53E71C150C94900021C8BE /* MusicScoreInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C53E71B150C94900021C8BE /* MusicScoreInputView.xib */; };
+		8C53E729150D40DC0021C8BE /* MusicScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C53E727150D40DC0021C8BE /* MusicScoreViewController.m */; };
+		8C53E72A150D40DC0021C8BE /* MusicScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C53E728150D40DC0021C8BE /* MusicScoreViewController.xib */; };
+		8C53E72C150D43A10021C8BE /* MusicScore.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C53E72B150D43A10021C8BE /* MusicScore.png */; };
+		8C53E730150D45E60021C8BE /* ResponsiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C53E72E150D45E60021C8BE /* ResponsiveViewController.m */; };
+		8C53E731150D45E60021C8BE /* ResponsiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C53E72F150D45E60021C8BE /* ResponsiveViewController.xib */; };
+		8C7A4686150BAFA800BFC2B2 /* MarkdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A4684150BAFA800BFC2B2 /* MarkdownViewController.m */; };
+		8C7A4687150BAFA800BFC2B2 /* MarkdownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7A4685150BAFA800BFC2B2 /* MarkdownViewController.xib */; };
 		8CB9A6FD14EB0CA000F1E29C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB9A6FC14EB0CA000F1E29C /* UIKit.framework */; };
 		8CB9A6FF14EB0CA000F1E29C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB9A6FE14EB0CA000F1E29C /* Foundation.framework */; };
 		8CB9A70114EB0CA000F1E29C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB9A70014EB0CA000F1E29C /* CoreGraphics.framework */; };
@@ -16,10 +27,6 @@
 		8CB9A71514EB0CA000F1E29C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB9A71414EB0CA000F1E29C /* SenTestingKit.framework */; };
 		8CB9A71614EB0CA000F1E29C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB9A6FC14EB0CA000F1E29C /* UIKit.framework */; };
 		8CB9A71714EB0CA000F1E29C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB9A6FE14EB0CA000F1E29C /* Foundation.framework */; };
-		8CB9A71F14EB0CA000F1E29C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9A71D14EB0CA000F1E29C /* InfoPlist.strings */; };
-		8CB9A72214EB0CA000F1E29C /* CustomInputViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9A72114EB0CA000F1E29C /* CustomInputViewDemoTests.m */; };
-		8CB9A73014EB15C800F1E29C /* CustomKeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9A72E14EB15C800F1E29C /* CustomKeyboardController.m */; };
-		8CB9A73114EB15C800F1E29C /* CustomKeyboardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9A72F14EB15C800F1E29C /* CustomKeyboardController.xib */; };
 		8CB9A75514EB7D4F00F1E29C /* BlackKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9A75214EB7D4F00F1E29C /* BlackKey.png */; };
 		8CB9A75614EB7D4F00F1E29C /* TopRunner.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9A75314EB7D4F00F1E29C /* TopRunner.png */; };
 		8CB9A75714EB7D4F00F1E29C /* WhiteKey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9A75414EB7D4F00F1E29C /* WhiteKey.png */; };
@@ -36,6 +43,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C53E711150BE3A80021C8BE /* MarkdownInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownInputAccessoryView.h; sourceTree = "<group>"; };
+		8C53E712150BE3A80021C8BE /* MarkdownInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownInputAccessoryView.m; sourceTree = "<group>"; };
+		8C53E715150C924B0021C8BE /* MusicScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicScoreView.h; sourceTree = "<group>"; };
+		8C53E716150C924B0021C8BE /* MusicScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicScoreView.m; sourceTree = "<group>"; };
+		8C53E718150C94130021C8BE /* MusicScoreInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicScoreInputView.h; sourceTree = "<group>"; };
+		8C53E719150C94130021C8BE /* MusicScoreInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicScoreInputView.m; sourceTree = "<group>"; };
+		8C53E71B150C94900021C8BE /* MusicScoreInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicScoreInputView.xib; sourceTree = "<group>"; };
+		8C53E726150D40DC0021C8BE /* MusicScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicScoreViewController.h; sourceTree = "<group>"; };
+		8C53E727150D40DC0021C8BE /* MusicScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicScoreViewController.m; sourceTree = "<group>"; };
+		8C53E728150D40DC0021C8BE /* MusicScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicScoreViewController.xib; sourceTree = "<group>"; };
+		8C53E72B150D43A10021C8BE /* MusicScore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicScore.png; sourceTree = "<group>"; };
+		8C53E72D150D45E60021C8BE /* ResponsiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResponsiveViewController.h; path = "Responsive View/ResponsiveViewController.h"; sourceTree = "<group>"; };
+		8C53E72E150D45E60021C8BE /* ResponsiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResponsiveViewController.m; path = "Responsive View/ResponsiveViewController.m"; sourceTree = "<group>"; };
+		8C53E72F150D45E60021C8BE /* ResponsiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResponsiveViewController.xib; path = "Responsive View/ResponsiveViewController.xib"; sourceTree = "<group>"; };
+		8C7A4683150BAFA800BFC2B2 /* MarkdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownViewController.h; sourceTree = "<group>"; };
+		8C7A4684150BAFA800BFC2B2 /* MarkdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownViewController.m; sourceTree = "<group>"; };
+		8C7A4685150BAFA800BFC2B2 /* MarkdownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkdownViewController.xib; sourceTree = "<group>"; };
 		8CB9A6F814EB0CA000F1E29C /* CustomInputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomInputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB9A6FC14EB0CA000F1E29C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8CB9A6FE14EB0CA000F1E29C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,13 +72,6 @@
 		8CB9A70C14EB0CA000F1E29C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8CB9A71314EB0CA000F1E29C /* CustomInputViewDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomInputViewDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB9A71414EB0CA000F1E29C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8CB9A71C14EB0CA000F1E29C /* CustomInputViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomInputViewDemoTests-Info.plist"; sourceTree = "<group>"; };
-		8CB9A71E14EB0CA000F1E29C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8CB9A72014EB0CA000F1E29C /* CustomInputViewDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomInputViewDemoTests.h; sourceTree = "<group>"; };
-		8CB9A72114EB0CA000F1E29C /* CustomInputViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomInputViewDemoTests.m; sourceTree = "<group>"; };
-		8CB9A72D14EB15C800F1E29C /* CustomKeyboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomKeyboardController.h; sourceTree = "<group>"; };
-		8CB9A72E14EB15C800F1E29C /* CustomKeyboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomKeyboardController.m; sourceTree = "<group>"; };
-		8CB9A72F14EB15C800F1E29C /* CustomKeyboardController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomKeyboardController.xib; sourceTree = "<group>"; };
 		8CB9A75214EB7D4F00F1E29C /* BlackKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackKey.png; sourceTree = "<group>"; };
 		8CB9A75314EB7D4F00F1E29C /* TopRunner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopRunner.png; sourceTree = "<group>"; };
 		8CB9A75414EB7D4F00F1E29C /* WhiteKey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteKey.png; sourceTree = "<group>"; };
@@ -84,12 +101,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C53E70F150BE3760021C8BE /* Markdown View */ = {
+			isa = PBXGroup;
+			children = (
+				8C7A4683150BAFA800BFC2B2 /* MarkdownViewController.h */,
+				8C7A4684150BAFA800BFC2B2 /* MarkdownViewController.m */,
+				8C7A4685150BAFA800BFC2B2 /* MarkdownViewController.xib */,
+				8C53E711150BE3A80021C8BE /* MarkdownInputAccessoryView.h */,
+				8C53E712150BE3A80021C8BE /* MarkdownInputAccessoryView.m */,
+			);
+			path = "Markdown View";
+			sourceTree = "<group>";
+		};
+		8C53E714150C92320021C8BE /* Music Score View */ = {
+			isa = PBXGroup;
+			children = (
+				8C53E715150C924B0021C8BE /* MusicScoreView.h */,
+				8C53E716150C924B0021C8BE /* MusicScoreView.m */,
+				8C53E718150C94130021C8BE /* MusicScoreInputView.h */,
+				8C53E719150C94130021C8BE /* MusicScoreInputView.m */,
+				8C53E71B150C94900021C8BE /* MusicScoreInputView.xib */,
+				8C53E726150D40DC0021C8BE /* MusicScoreViewController.h */,
+				8C53E727150D40DC0021C8BE /* MusicScoreViewController.m */,
+				8C53E728150D40DC0021C8BE /* MusicScoreViewController.xib */,
+			);
+			path = "Music Score View";
+			sourceTree = "<group>";
+		};
+		8C53E71D150D1A4C0021C8BE /* Responsive View */ = {
+			isa = PBXGroup;
+			children = (
+				8C53E72D150D45E60021C8BE /* ResponsiveViewController.h */,
+				8C53E72E150D45E60021C8BE /* ResponsiveViewController.m */,
+				8C53E72F150D45E60021C8BE /* ResponsiveViewController.xib */,
+			);
+			name = "Responsive View";
+			sourceTree = "<group>";
+		};
 		8CB9A6ED14EB0CA000F1E29C = {
 			isa = PBXGroup;
 			children = (
 				8CB9A75114EB7D4E00F1E29C /* Resources */,
 				8CB9A70214EB0CA000F1E29C /* CustomInputViewDemo */,
-				8CB9A71A14EB0CA000F1E29C /* CustomInputViewDemoTests */,
 				8CB9A6FB14EB0CA000F1E29C /* Frameworks */,
 				8CB9A6F914EB0CA000F1E29C /* Products */,
 			);
@@ -118,12 +171,12 @@
 		8CB9A70214EB0CA000F1E29C /* CustomInputViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8C53E71D150D1A4C0021C8BE /* Responsive View */,
+				8C53E714150C92320021C8BE /* Music Score View */,
+				8C53E70F150BE3760021C8BE /* Markdown View */,
 				8CB9A70B14EB0CA000F1E29C /* AppDelegate.h */,
 				8CB9A70C14EB0CA000F1E29C /* AppDelegate.m */,
 				8CB9A70314EB0CA000F1E29C /* Supporting Files */,
-				8CB9A72D14EB15C800F1E29C /* CustomKeyboardController.h */,
-				8CB9A72E14EB15C800F1E29C /* CustomKeyboardController.m */,
-				8CB9A72F14EB15C800F1E29C /* CustomKeyboardController.xib */,
 			);
 			path = CustomInputViewDemo;
 			sourceTree = "<group>";
@@ -139,28 +192,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8CB9A71A14EB0CA000F1E29C /* CustomInputViewDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				8CB9A72014EB0CA000F1E29C /* CustomInputViewDemoTests.h */,
-				8CB9A72114EB0CA000F1E29C /* CustomInputViewDemoTests.m */,
-				8CB9A71B14EB0CA000F1E29C /* Supporting Files */,
-			);
-			path = CustomInputViewDemoTests;
-			sourceTree = "<group>";
-		};
-		8CB9A71B14EB0CA000F1E29C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8CB9A71C14EB0CA000F1E29C /* CustomInputViewDemoTests-Info.plist */,
-				8CB9A71D14EB0CA000F1E29C /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		8CB9A75114EB7D4E00F1E29C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8C53E72B150D43A10021C8BE /* MusicScore.png */,
 				8CB9A75214EB7D4F00F1E29C /* BlackKey.png */,
 				8CB9A75314EB7D4F00F1E29C /* TopRunner.png */,
 				8CB9A75414EB7D4F00F1E29C /* WhiteKey.png */,
@@ -240,10 +275,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB9A70714EB0CA000F1E29C /* InfoPlist.strings in Resources */,
-				8CB9A73114EB15C800F1E29C /* CustomKeyboardController.xib in Resources */,
 				8CB9A75514EB7D4F00F1E29C /* BlackKey.png in Resources */,
 				8CB9A75614EB7D4F00F1E29C /* TopRunner.png in Resources */,
 				8CB9A75714EB7D4F00F1E29C /* WhiteKey.png in Resources */,
+				8C7A4687150BAFA800BFC2B2 /* MarkdownViewController.xib in Resources */,
+				8C53E71C150C94900021C8BE /* MusicScoreInputView.xib in Resources */,
+				8C53E72A150D40DC0021C8BE /* MusicScoreViewController.xib in Resources */,
+				8C53E72C150D43A10021C8BE /* MusicScore.png in Resources */,
+				8C53E731150D45E60021C8BE /* ResponsiveViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +290,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB9A71F14EB0CA000F1E29C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +318,12 @@
 			files = (
 				8CB9A70914EB0CA000F1E29C /* main.m in Sources */,
 				8CB9A70D14EB0CA000F1E29C /* AppDelegate.m in Sources */,
-				8CB9A73014EB15C800F1E29C /* CustomKeyboardController.m in Sources */,
+				8C7A4686150BAFA800BFC2B2 /* MarkdownViewController.m in Sources */,
+				8C53E713150BE3A80021C8BE /* MarkdownInputAccessoryView.m in Sources */,
+				8C53E717150C924B0021C8BE /* MusicScoreView.m in Sources */,
+				8C53E71A150C94130021C8BE /* MusicScoreInputView.m in Sources */,
+				8C53E729150D40DC0021C8BE /* MusicScoreViewController.m in Sources */,
+				8C53E730150D45E60021C8BE /* ResponsiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +331,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB9A72214EB0CA000F1E29C /* CustomInputViewDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +349,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				8CB9A70614EB0CA000F1E29C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8CB9A71D14EB0CA000F1E29C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CB9A71E14EB0CA000F1E29C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -370,6 +404,7 @@
 		8CB9A72614EB0CA000F1E29C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomInputViewDemo/CustomInputViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "CustomInputViewDemo/CustomInputViewDemo-Info.plist";
@@ -381,6 +416,7 @@
 		8CB9A72714EB0CA000F1E29C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomInputViewDemo/CustomInputViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "CustomInputViewDemo/CustomInputViewDemo-Info.plist";
@@ -393,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomInputViewDemo.app/CustomInputViewDemo";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -410,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomInputViewDemo.app/CustomInputViewDemo";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
