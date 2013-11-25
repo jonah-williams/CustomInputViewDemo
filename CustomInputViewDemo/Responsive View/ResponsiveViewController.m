@@ -36,7 +36,7 @@
     CGRect keyboardEndFrameInWindowCoordinates = [self.view.window convertRect:keyboardEndFrameInScreenCoordinates fromWindow:nil];
     CGRect keyboardEndFrameInViewCoordinates = [self.view convertRect:keyboardEndFrameInWindowCoordinates fromView:nil];
     CGRect windowFrameInViewCoords = [self.view convertRect:self.view.window.frame fromView:nil];
-    CGFloat heightBelowViewInWindow = windowFrameInViewCoords.origin.y + windowFrameInViewCoords.size.height - (self.view.frame.origin.y + self.view.frame.size.height);
+    CGFloat heightBelowViewInWindow = windowFrameInViewCoords.origin.y + windowFrameInViewCoords.size.height - self.view.frame.size.height;
     CGFloat heightCoveredByKeyboard = keyboardEndFrameInViewCoordinates.size.height - heightBelowViewInWindow;
     
     //build an inset to add padding to the content view equal to the height of the portion of the view hidden by the keyboard
